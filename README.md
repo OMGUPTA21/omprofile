@@ -1,20 +1,30 @@
-<a href="https://kind-smoke-0cf78f210.1.azurestaticapps.net/">OM PROFILE</a>
+# <a href="https://kind-smoke-0cf78f210.1.azurestaticapps.net">Blog Website</a>
 
+This is 1 Page Front End website design
 
 Web Technologies used: HTML, CSS, JS, Bootstrap
 
-Project Title :
-Proffesional resume and bio site
 
 
-Project Description :
-Core Idea of Project is to build an sample prototype proffesional resume public notice site with the help of Azure environment.  The primary goal of sample prototype an  site is to provide information about one bio and how proffesional he/she grow in his field
-.
-
-Primary Azure Technology :
-Static Web Apps
+### Industry :
+Lifestyle
 
 
-SAMPLE OF SITE
+### Project Title :
+Professional site
 
-![Screenshot 2022-05-17 195032](https://user-images.githubusercontent.com/73100677/168833820-7438e6a6-e71e-4e71-b895-c4cefbc1cf08.png)
+### Problem Statement/Opportunity :
+An Professional site wants to build a sample Front End prototype website for growing their network and help recutier to know the persion in a convinent way and judge thier profile and connect with social like likedin and also give secret to inprove thier profiles.
+
+
+### Project Description :
+The Idea of Project is to build an sample prototype Professional site with the help of Azure Deployment. The peer to pear network of the product (Professional site) is the most visible to connect more people in the world.
+
+### Primary Azure Technology :
+App Service,Static Web Apps
+
+
+Other Azure Technologies :
+App Service
+
+<a href="https://futurereadytalent.in/"><p align= "center"><img src="https://github.com/ROHAN0011/Microsoft-Future-Ready-Talent-Internship-Project/blob/5ae1e52f4f4236d8ca92ea9189794835ce087467/FRT.jpeg" width="700" height= "350"></p></a> 
