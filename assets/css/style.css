@@ -244,8 +244,8 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 100vh;
-  background: url("../img/hero-bg.jpg") top right no-repeat;
+  height:100vh;
+  background: url("../img/hero.jpg") top right no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -1030,6 +1030,28 @@ section {
   font-size: 18px;
   display: inline-block;
   background: #0563bb;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+#footer .social-links a:hover {
+  background: #0678e3;
+  color: #fff;
+  text-decoration: none;
+}
+#footer .copyright {
+  margin: 0 0 5px 0;
+}
+#footer .credits {
+  font-size: 13px;
+}
+
   color: #fff;
   line-height: 1;
   padding: 8px 0;
