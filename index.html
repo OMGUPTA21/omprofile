@@ -560,14 +560,16 @@
                 
                 
               </div>
-              <div class="text-center"><button  type="submit" id="myForm" >Send Message</button></div>
+              <div class="text-center"><button type="submit" id="myForm" >Send Message</button></div>
             </form>
             <script>
               
              // Below Function Executes On Form Submit
             function ValidationEvent() {
-            ......
-            alert("All type of validation has done on OnSubmit event.");
+            //code//
+            // Storing Field Values In Variables
+            var name = document.getElementById("name").value;
+            alert("Thanks".name." "."are contacted shortly");
             return true;   // Returns Value
             }
 
