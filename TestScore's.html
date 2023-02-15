@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Favicons -->
+    <link href="assets/img/favicon.jpg" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Test Score's</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial;
+        }
+
+        /* The grid: Four equal columns that floats next to each other */
+        .column {
+            float: left;
+            width: 25%;
+            padding: 10px;
+        }
+
+        /* Style the images inside the grid */
+        .column img {
+            opacity: 0.8;
+            cursor: pointer;
+        }
+
+        .column img:hover {
+            opacity: 1;
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* The expanding image container */
+        .container {
+            position: relative;
+            display: none;
+        }
+
+        /* Expanding image text */
+        #imgtext {
+            position: absolute;
+            bottom: 15px;
+            left: 15px;
+            color: white;
+            font-size: 20px;
+        }
+
+        /* Closable button inside the expanded image */
+        .closebtn {
+            position: absolute;
+            top: 10px;
+            right: 15px;
+            color: white;
+            font-size: 35px;
+            cursor: pointer;
+        }
+
+        .hero-image {
+
+            background-image: url("download.jpg");
+            /* The image used */
+            background-color: #cccccc;
+            /* Used if the image is unavailable */
+            height: 500px;
+            /* You must set a specified height */
+            background-position: center;
+            /* Center the image */
+            background-repeat: no-repeat;
+            /* Do not repeat the image */
+            background-size: cover;
+            /* Resize the background image to cover the entire container */
+
+        }
+
+        .global-nav__me-photo {
+            border-radius: 50%;
+            border: none;
+            height: 24px;
+            overflow: hidden;
+            transform: scale(1);
+            transition: transform .2s ease-in-out;
+            width: 24px;
+        }
+    </style>
+</head>
+<script>
+    document.addEventListener('contextmenu', event => event.preventDefault());
+    document.onkeydown = function (e) {
+        if (event.keyCode == 123) {
+            return false;
+        }
+        if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+            return false;
+        }
+        if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+            return false;
+        }
+        if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+            return false;
+        }
+    }
+</script>
+
+<body class="hero-image">
+
+    <div style="text-align:center">
+        <img src="assets/img/favicon.jpg" width="30" height="30" alt="" id="ember17"
+            class="global-nav__me-photo ember-view">
+        <h2 style="color: #061574;"><i>OM GUPTA</i></h2>
+
+    </div>
+    <center>
+
+        <h2 style="color: #061574;">TEST SCORE</h2>
+
+        <p>
+            <b style="color: #1128be;">WBJECA 2022</b> <br><br>
+
+            <b style="color: #49a90d;">GMR-641</b> <br><br>
+        <div>
+            ABOUT THE EXAM
+
+            West Bengal Joint Entrance Examinations Board (WBJEEB) will conduct common entrance test JECA-2022 and
+            counselling for admission into Master of Computer Application (MCA) course in various institutions in West
+            Bengal for 2022-24 academic session. <br>
+
+            <br> <a href="https://wbjeeb.nic.in/EXMJECACMS/File/ViewFile?FileId=45&LangId=P">INFORMATION BULLITEN</a>
+
+            </p>
+        </div>
+        <div>
+            <p>
+                <b style="color: #1128be;">CET 2019</b> <br><br>
+
+                <b style="color: #49a90d;">RANK-253</b> <br><br>
+
+                ABOUT THE EXAM
+
+                Conducted by MAKAUT,WB for admission to Non­ AICTE Professional Courses.
+                Admission to Non AICTE professional courses (UG,PG) of MAKAUT,WB is made through Common Entrance
+                Test (CET)
+                Eligibility: For Bachelor's Degree Courses: 10+2 passed in General or Vocational Stream from any
+                recognised
+                Board with pass marks in each of the main subjects. For Master Degree Courses: Passed with Honours
+                Degree from
+                any UGC recognised University. <br>
+
+                <br> <a href="https://cetmat.formflix.com/information-bulletin">INFORMATION BULLITEN</a>
+
+
+            </p>
+        </div>
+    </center>
+
+
+
+
+
+
+</body>
+
+</html>
