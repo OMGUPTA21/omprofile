@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Favicons -->
+    <link href="assets/img/favicon.jpg" rel="icon">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Test Score's</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: ui-sans-serif;
+            display: block;
+        }
+
+        /* The grid: Four equal columns that floats next to each other */
+        .column {
+            float: left;
+            width: 25%;
+            padding: 10px;
+        }
+
+        /* Style the images inside the grid */
+        .column img {
+            opacity: 0.8;
+            cursor: pointer;
+        }
+
+        .column img:hover {
+            opacity: 1;
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* The expanding image container */
+        .container {
+            position: relative;
+            display: none;
+        }
+
+        /* Expanding image text */
+        #imgtext {
+            position: absolute;
+            bottom: 15px;
+            left: 15px;
+            color: white;
+            font-size: 20px;
+        }
+
+        /* Closable button inside the expanded image */
+        .closebtn {
+            position: absolute;
+            top: 10px;
+            right: 15px;
+            color: white;
+            font-size: 35px;
+            cursor: pointer;
+        }
+
+        .hero-image {
+
+            background-image: url("project.jpg");
+            /* The image used */
+            background-color: #cccccc;
+            /* Used if the image is unavailable */
+            height: 500px;
+            /* You must set a specified height */
+            background-position: center;
+            /* Center the image */
+            background-repeat: no-repeat;
+            /* Do not repeat the image */
+            background-size: cover;
+            /* Resize the background image to cover the entire container */
+
+        }
+
+        .global-nav__me-photo {
+            border-radius: 50%;
+            border: none;
+            height: 24px;
+            overflow: hidden;
+            transform: scale(1);
+            transition: transform .2s ease-in-out;
+            width: 24px;
+        }
+    </style>
+</head>
+<script>
+ 
+    document.addEventListener('contextmenu', event => event.preventDefault());
+    document.onkeydown = function (e) {
+        if (event.keyCode == 123) {
+            return false;
+        }
+        if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+            return false;
+        }
+        if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+            return false;
+        }
+        if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+            return false;
+        }
+    }
+</script>
+
+<body class="hero-image">
+
+    <div style="text-align:center">
+        <img src="assets/img/favicon.jpg" width="30" height="30" alt="" id="ember17"
+            class="global-nav__me-photo ember-view">
+        <h2 style="color: #061574;"><i>OM GUPTA</i></h2>
+
+    </div>
+    <center>
+
+
+        <h2 style="color: #061574;">PROJECT'S</h2>
+        <div>
+            <p>
+            <h1 style="color: #061574;">1</h1>
+            <b style="color: #49a90d;">(DOCTOCARE SYSTEM)</b> <br><br>
+
+
+
+            ABOUT THE PROJECT<br>
+
+            <i>Now a days where Covid-19 is spreading into many people who has been infected by this virus. As well as
+            many other disease where people are afraid to get doctor appointment physically challenged by this
+            pandemic. Now this situation people has wanted an online service to consult with their trusted doctors
+            and get perfect guidance for the specific symptoms , which are they facing .</i> <br>
+
+            <br> <a href="http://doctocare.infinityfreeapp.com/Doctocare_Official/Front_Page/?i=1" target="_blank">VIEW</a>
+
+            </p>
+        </div><br>
+        <div>
+            <p>
+            <h1 style="color: #061574;">2</h1>
+            <b style="color: #49a90d;">(RESUME SITE)</b> <br><br>
+
+
+
+            ABOUT THE PROJECT<br>
+
+           <i>I am a MCA student of MAKAUT(in-house)main Campus haringhata .I am a happy person who loves to do work,
+            learn new things and gain knowledge. I am a person who has always had a positive outlook towards life.</i><br>
+
+            <br> <a href="https://happy-bay-05547a910.2.azurestaticapps.net/" target="_blank">VIEW</a>
+
+            </p>
+        </div>
+    </center>
+
+
+
+
+
+
+</body>
+
+</html>
