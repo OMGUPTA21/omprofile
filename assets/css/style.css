@@ -16,6 +16,17 @@ body {
   background-color: rgb(251, 255, 228);
   color: rgb(1, 1, 1);
 }
+
+.global-nav__me-photo {
+    border-radius: 50%;
+    border: none;
+    height: 24px;
+    overflow: hidden;
+    transform: scale(1);
+    transition: transform .2s ease-in-out;
+    width: 24px;
+}
+
 a {
   color: #0563bb;
   text-decoration: none;
