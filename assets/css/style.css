@@ -14,8 +14,8 @@ body {
   
 }
 .dark-mode {
-  background-color: rgb(251, 255, 228);
-  color: rgb(1, 1, 1);
+  background-color: rgb(250, 242, 242);
+  color: rgb(6, 48, 214);
 }
 
 .global-nav__me-photo {
