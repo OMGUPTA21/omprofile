@@ -13,10 +13,7 @@ body {
   color: #272829;
   
 }
-.dark-mode {
-  background-color: rgb(250, 242, 242);
-  color: rgb(6, 48, 214);
-}
+
 
 .global-nav__me-photo {
     border-radius: 50%;
