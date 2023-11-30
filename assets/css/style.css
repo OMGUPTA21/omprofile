@@ -16,7 +16,7 @@ body {
 
 
 .global-nav__me-photo {
-    border-radius: 50%;
+    border-radius: 40%;
     border: none;
    
     overflow: hidden;
